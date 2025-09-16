@@ -1,5 +1,4 @@
-import NewCommandModule from '@angular/cli/src/commands/new/cli';
-import {HttpBackend, HttpClient, HttpErrorResponse, HttpHeaders} from '@angular/common/http';
+import {HttpClient, HttpErrorResponse, HttpHeaders} from '@angular/common/http';
 import {inject} from '@angular/core';
 import {catchError, Observable, retry, throwError} from 'rxjs';
 import {environment} from "../../../../../EduHive-Frontend/src/environments/environment";
